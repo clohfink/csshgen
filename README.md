@@ -4,7 +4,7 @@ Generate a clusers config file for cssh against servers in a Rackspace account f
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download from https://github.com/clohfink/csshgen/blob/master/csshgen.jar?raw=true
 
 ## Usage
 
@@ -19,4 +19,7 @@ Download from http://example.com/FIXME.
 
 ## Examples
 
-...
+java -jar csshgen.jar rackspaceAccount 9aa7770603b266a33f881966976d3811 ord clohfink >> /etc/clusters
+
+cssh ORD-CASSANDRA-11
+cssh ORD-CASSANDRA
