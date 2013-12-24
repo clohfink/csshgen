@@ -19,7 +19,7 @@ Download from https://github.com/clohfink/csshgen/blob/master/csshgen.jar?raw=tr
 
 ## Examples
 
-java -jar csshgen.jar rackspaceAccount 9aa7770603b266a33f881966976d3811 ord clohfink >> /etc/clusters
+    java -jar csshgen.jar rackspaceAccount 9aa7770603b266a33f881966976d3811 ord clohfink >> /etc/clusters
 
-cssh ORD-CASSANDRA-11
-cssh ORD-CASSANDRA
+    cssh ORD-CASSANDRA-11
+    cssh ORD-CASSANDRA
