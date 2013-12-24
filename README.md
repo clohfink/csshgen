@@ -1,6 +1,6 @@
 # csshgen
 
-Generate a clusers config file for cssh against servers in a Rackspace account
+Generate a clusers config file for cssh against servers in a Rackspace account for a given data center
 
 ## Installation
 
@@ -8,29 +8,15 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar csshgen-0.1.0-standalone.jar [args]
+    $ java -jar csshgen.jar rackspaceAccount apikey datacenter username
 
 ## Options
 
-FIXME: listing of options this app accepts.
+- rackspaceAccount : the account you login to mycloud.rackspace.com with
+- apikey : said accounts api key
+- datacenter: ord, dfw etc
+- username that you would login to each of the boxes with (this sets the username@ip in clusters file)
 
 ## Examples
 
 ...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
